@@ -62,3 +62,20 @@ td img {
     filter: none;
     opacity: 0.8;
 }
+
+
+@media screen and (max-width: 480px) {
+    .card-wrap {
+        width: 20rem;
+        height: 20rem;
+    }
+    td {
+        width: 2.5rem;
+        height: 2.48rem;
+    }
+
+    td img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
