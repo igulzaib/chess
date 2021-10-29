@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn.dribbble.com/users/2399335/screenshots/14689261/d_glass-morphism_card_1080p_4x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-wrap {
+    width: 30rem;
+    height: 30rem;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 3.75rem;
+    height: 3.737rem;
+    text-align: center;
+    color: white;
+    /* border: 1px solid rgba(255, 255, 255, 0.8); */
+}
+
+.black-cell {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+tr:first-child > td:last-child {
+    border-top-right-radius: 1rem;
+}
+
+tr:last-child > td:first-child {
+    border-bottom-left-radius: 1rem;
+}
+
+td img {
+    width: 2rem;
+    height: 2rem;
+    filter: invert();
+    opacity: 0.7;
+}
+
+.black-player {
+    filter: none;
+    opacity: 0.8;
+}
